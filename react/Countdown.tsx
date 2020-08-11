@@ -9,7 +9,7 @@ const Countdown: StorefrontFunctionComponent<CountdownProps> = ({ targetDate }) 
     <div>
       <h1>{ targetDate }</h1>
     </div>
-  );
+  )
 }
 
 Countdown.schema = {
@@ -22,8 +22,8 @@ Countdown.schema = {
       description: 'Data final utilizada no contador',
       type: 'string',
       default: null,
-    },
+    }
   },
 }
 
-export default Countdown
+export default Countdown;
